@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-26",
+  "note": "Historical source for audit. Personal home paths replaced with /path/to/user; use c_monitor for portable execution.",
+  "scripts": [
+    {
+      "path": "legacy/scripts/build_frame_comparison.py",
+      "original_sha256": "f66329de62f09f92875cab125f06902929e64a2fa8dbba42caf622d267bf3123",
+      "packaged_sha256": "f66329de62f09f92875cab125f06902929e64a2fa8dbba42caf622d267bf3123"
+    },
+    {
+      "path": "legacy/scripts/build_member_comparison.py",
+      "original_sha256": "03b06766cac2fce4b5ecbdc195f075cb47d5c1b85af4b1327839c0802b327d34",
+      "packaged_sha256": "03b06766cac2fce4b5ecbdc195f075cb47d5c1b85af4b1327839c0802b327d34"
+    },
+    {
+      "path": "legacy/scripts/build_oa_segment_review.py",
+      "original_sha256": "e4038b693c041467cc1a4198bb097cac0843ac22364aefa66ef5947c48a702f5",
+      "packaged_sha256": "e4038b693c041467cc1a4198bb097cac0843ac22364aefa66ef5947c48a702f5"
+    },
+    {
+      "path": "legacy/scripts/c5_live_ranking.py",
+      "original_sha256": "44c263fcc31a415e89ca18397e9f10a98fa90b9c7a059a3c9fbd3f8b41d815d6",
+      "packaged_sha256": "44c263fcc31a415e89ca18397e9f10a98fa90b9c7a059a3c9fbd3f8b41d815d6"
+    },
+    {
+      "path": "legacy/scripts/c5_text.py",
+      "original_sha256": "0c9e94ab87758caa55473d5aa6902c98e467f4c96190340194c7977cb7b94b78",
+      "packaged_sha256": "0c9e94ab87758caa55473d5aa6902c98e467f4c96190340194c7977cb7b94b78"
+    },
+    {
+      "path": "legacy/scripts/landscape_live_ranking.py",
+      "original_sha256": "fe301dcaf2cd52f604ed61770c3fbea574b216d12bb0461d5c5dff24742f62dc",
+      "packaged_sha256": "fe301dcaf2cd52f604ed61770c3fbea574b216d12bb0461d5c5dff24742f62dc"
+    },
+    {
+      "path": "legacy/scripts/patch_c5_annotated_labels.py",
+      "original_sha256": "92110b079e1ac620aff12c0fbcb3cc7259d3918a43a323e8bbb73d4ec146737e",
+      "packaged_sha256": "92110b079e1ac620aff12c0fbcb3cc7259d3918a43a323e8bbb73d4ec146737e"
+    },
+    {
+      "path": "legacy/scripts/prepare_landscape_member_ranking.py",
+      "original_sha256": "a43c3213ca012871dc716ff62dead1543a733bf65d4155ea493f9eeee1de22d9",
+      "packaged_sha256": "a43c3213ca012871dc716ff62dead1543a733bf65d4155ea493f9eeee1de22d9"
+    },
+    {
+      "path": "legacy/scripts/recording_country_ranking.py",
+      "original_sha256": "75e744d5c9a648faee5ea23c5ac60ef26d629179fe949c903bcaaedabee39cc6",
+      "packaged_sha256": "75e744d5c9a648faee5ea23c5ac60ef26d629179fe949c903bcaaedabee39cc6"
+    },
+    {
+      "path": "legacy/scripts/render_aligned_review.py",
+      "original_sha256": "26b986642adba4adf10371c32043063aab9e37026c97100a14f5c7f200e8d001",
+      "packaged_sha256": "5e61e1db56768ce54de52bc11be869a768f1ffd74b6f831b7300ff53ac19b287"
+    },
+    {
+      "path": "legacy/scripts/render_c4_named.py",
+      "original_sha256": "8d6555ff648a9e8d0e22d71cd19bc3ad0de26e1bc4fae4c45bc5bf9c112f65ae",
+      "packaged_sha256": "6c5345bb79cd20ac401bc0c9e2b0ea6e3c7be1ef89e8e721ffabac571ccfd0f6"
+    },
+    {
+      "path": "legacy/scripts/render_c5_china_logo.py",
+      "original_sha256": "f7073ae53e7cb8d61b6c6a1e8ca39110717f6a9e6551a098405dca32da771a8b",
+      "packaged_sha256": "59bf8e1935e5cbf3abdfaf31da0ce822f484632ed091ec4ffe003ff15e8555bb"
+    },
+    {
+      "path": "legacy/scripts/render_c5_cn_flag.py",
+      "original_sha256": "394d7c629fc6303125eb4b45be36d42d2f8a3e0b771ec44443c660aa6c82e003",
+      "packaged_sha256": "41caa6fc76497da18674a50fc26970dc38a65dee581b3d9134e929dde92be104"
+    },
+    {
+      "path": "legacy/scripts/render_c5_flag_corrected.py",
+      "original_sha256": "a1b3f5deb328bf0d01915cf1d7374b83149709cf0f714bb559d1356130e56609",
+      "packaged_sha256": "a472d4866782483183e203cf9e86630d94a3660e49bd5838164e489b90f648d6"
+    },
+    {
+      "path": "legacy/scripts/render_c5_name_only.py",
+      "original_sha256": "e7442ee08bcc3f5725f45750db5481f2f5d4038bfe641b690259bc6e17d55ef4",
+      "packaged_sha256": "9b913a8ff4c2c290d230af3fcbee12d0fdbce9f4f695d3857f45538e8d87fdc5"
+    },
+    {
+      "path": "legacy/scripts/render_china_flag.swift",
+      "original_sha256": "dc68f07de8a3eed48383aa1b43f63aa4319cb70b7ffb561f1fd2ecee7d17a4cf",
+      "packaged_sha256": "dc68f07de8a3eed48383aa1b43f63aa4319cb70b7ffb561f1fd2ecee7d17a4cf"
+    },
+    {
+      "path": "legacy/scripts/render_landscape_named.py",
+      "original_sha256": "149ee30f5cb5be99ae0e8c0603784215ecca32d643fd8deafe36c851740c9224",
+      "packaged_sha256": "fabb88f14756a5d790708f11f42ef83e9eddcdaa105e5752ed2c1af22c8f0b36"
+    },
+    {
+      "path": "legacy/scripts/render_landscape_review.py",
+      "original_sha256": "77799f37300e4c2d57dd9b41ad8c625326730e30929e870f0eeeebfc7d9ec151",
+      "packaged_sha256": "77799f37300e4c2d57dd9b41ad8c625326730e30929e870f0eeeebfc7d9ec151"
+    },
+    {
+      "path": "legacy/scripts/render_member_flags.swift",
+      "original_sha256": "4bdc0da7b85116e5c30bcd24714246c51b75e124a8f74818f8b4aed23de4ebdf",
+      "packaged_sha256": "4bdc0da7b85116e5c30bcd24714246c51b75e124a8f74818f8b4aed23de4ebdf"
+    },
+    {
+      "path": "legacy/scripts/render_recorded_landscape.py",
+      "original_sha256": "ba273c9d8fe7ae7c4478aedd2cf410c4b825dfa4415561a94306eaf02c27e3af",
+      "packaged_sha256": "dfaa9bae1c6a6dfb5f864e78bc8f392befdc02e439f5e6cf437f9215d432654d"
+    },
+    {
+      "path": "legacy/scripts/render_recording_review_v4.py",
+      "original_sha256": "9dc514867695de004d3f2a75595a782d581666a6665d55a0c496c316e585a383",
+      "packaged_sha256": "9dc514867695de004d3f2a75595a782d581666a6665d55a0c496c316e585a383"
+    },
+    {
+      "path": "legacy/scripts/render_recording_review_v5.py",
+      "original_sha256": "a937d5ce6eca0a31ab203bc665c4091206549be2fc3a18f82327a70f2b551175",
+      "packaged_sha256": "a937d5ce6eca0a31ab203bc665c4091206549be2fc3a18f82327a70f2b551175"
+    },
+    {
+      "path": "legacy/scripts/render_recording_review_v6.py",
+      "original_sha256": "607feccefb7e860fbc6c31731191f0f636102fcb5aacf6823e8b16c3ca1a0468",
+      "packaged_sha256": "607feccefb7e860fbc6c31731191f0f636102fcb5aacf6823e8b16c3ca1a0468"
+    },
+    {
+      "path": "legacy/scripts/render_recording_review_v7.py",
+      "original_sha256": "5cc13142313308521cf32525923489aa71a2d26d583089a5467730889dac127e",
+      "packaged_sha256": "5cc13142313308521cf32525923489aa71a2d26d583089a5467730889dac127e"
+    },
+    {
+      "path": "legacy/scripts/render_recording_review_v8.py",
+      "original_sha256": "3d45faa72e2f277f945a596cb87e975f7912f52fd0af1cc7c67549611de22dac",
+      "packaged_sha256": "3d45faa72e2f277f945a596cb87e975f7912f52fd0af1cc7c67549611de22dac"
+    },
+    {
+      "path": "legacy/scripts/render_reviewed.py",
+      "original_sha256": "8951a60277c56cc12897c7c38d9d3b83612e7969a62e099e121080188a44df76",
+      "packaged_sha256": "95e42e6eaa24348f3e58d9a0cae15459f6c1688fd72ca634b4b3786ddf0b52e4"
+    },
+    {
+      "path": "legacy/scripts/repair_landscape_review.py",
+      "original_sha256": "fdca066ad2957da5cead6f74b802472dffff17e6a70c90713d19652b0be1075c",
+      "packaged_sha256": "f8fe6944c523aba87cf7b42b887df1d71e0b7ec910f225531f661101a9a1592f"
+    },
+    {
+      "path": "legacy/scripts/repair_recording_review_v2.py",
+      "original_sha256": "54000181061af28a6b1634fc0daf2cb7a7f42dbf2a3dd082e4fa7b7bab7f0ccb",
+      "packaged_sha256": "54000181061af28a6b1634fc0daf2cb7a7f42dbf2a3dd082e4fa7b7bab7f0ccb"
+    },
+    {
+      "path": "legacy/scripts/repair_recording_review_v3.py",
+      "original_sha256": "93806c019795b5b7753607a3cb0e8d147174e5e8452091e308316b4593ea0f88",
+      "packaged_sha256": "93806c019795b5b7753607a3cb0e8d147174e5e8452091e308316b4593ea0f88"
+    },
+    {
+      "path": "legacy/scripts/repair_recording_review_v4.py",
+      "original_sha256": "b6d9f72fead01c3cc4a3ac7f10bcd11e1b11bc7ce01f50b2856118441f22a8a7",
+      "packaged_sha256": "e8346962562fc9db8067cf47b078dcd9baa6c2dc32c429dcf83eb8380aaa304b"
+    },
+    {
+      "path": "legacy/scripts/repair_recording_review_v5.py",
+      "original_sha256": "08472ee77678e399eb0761850eb2c60f0c15e53e5daeaf7faef33728aaa50fce",
+      "packaged_sha256": "08472ee77678e399eb0761850eb2c60f0c15e53e5daeaf7faef33728aaa50fce"
+    },
+    {
+      "path": "legacy/scripts/repair_recording_review_v6.py",
+      "original_sha256": "1ba4bcd21a89c9f7aa1c54721585d0f5937038897dad069fbc8bcc096a3f333d",
+      "packaged_sha256": "1ba4bcd21a89c9f7aa1c54721585d0f5937038897dad069fbc8bcc096a3f333d"
+    },
+    {
+      "path": "legacy/scripts/repair_recording_review_v7.py",
+      "original_sha256": "2500268ed1e7095eb31c73def22f9d7455fdf1aae756c20ebfb27fac0aa19353",
+      "packaged_sha256": "2500268ed1e7095eb31c73def22f9d7455fdf1aae756c20ebfb27fac0aa19353"
+    },
+    {
+      "path": "legacy/scripts/repair_recording_review_v8.py",
+      "original_sha256": "eff273e53bf73f53f1cb2bb311427eb6039e97742fee8e99c811e57c091700c7",
+      "packaged_sha256": "eff273e53bf73f53f1cb2bb311427eb6039e97742fee8e99c811e57c091700c7"
+    },
+    {
+      "path": "legacy/scripts/restyle_reviewed.py",
+      "original_sha256": "db0ecbf32fce86fe301021eb4221cb63a368e2e9ef1cdaca7b1b3a75321e71a7",
+      "packaged_sha256": "dd26a55842a8ad874fca6fd4f7bf87019fea8611efe6608157d782b217976af2"
+    },
+    {
+      "path": "legacy/scripts/review_landscape.py",
+      "original_sha256": "69a2a20c8e1f2047487528436b6e57903510e6178304f5305cc596557e1f8c8e",
+      "packaged_sha256": "69a2a20c8e1f2047487528436b6e57903510e6178304f5305cc596557e1f8c8e"
+    },
+    {
+      "path": "legacy/scripts/transfer_landscape_roles.py",
+      "original_sha256": "31358da6db68c05d8492f8972e2f0e8dcc4d243d02a2d90f6acb00a359cd84ca",
+      "packaged_sha256": "fd7db87c5d4d336e880e04160bec6e9ad4a05623293c04a7aa62cd2c0cc320d0"
+    },
+    {
+      "path": "legacy/scripts/verify_landscape_named.py",
+      "original_sha256": "1584a6f2336e6be79ff3249a60c4426d232f3c845e8be1fe22b2cca71a2eb35b",
+      "packaged_sha256": "b3e7f9bf2fd26677ab2dccab98bbb43ec92169bb1424d544a36b0a53ca1e0258"
+    },
+    {
+      "path": "legacy/scripts/verify_recording_review_v2.py",
+      "original_sha256": "7c9584eb0693bfacebfe376019386cc4945854ebe1ca7c086a3b1a921d7d5497",
+      "packaged_sha256": "3b3b74c7dc1072e6a520ad895d86d8eb4353b7bdba823dc435e2ee9ba15c26d3"
+    },
+    {
+      "path": "legacy/scripts/verify_recording_review_v3.py",
+      "original_sha256": "0edfc821cd508252dce307522111a0143427fc8233d3606413890724700f70e9",
+      "packaged_sha256": "d46978d1562aab8ef57c7c181562607df578422345cc2911b02e2055713b72c9"
+    },
+    {
+      "path": "legacy/scripts/verify_recording_review_v4.py",
+      "original_sha256": "f4a90a40d6b06be652d97a078b7cf173e89662d1f250243622df4bad6735761f",
+      "packaged_sha256": "f2f017dbe5b602f373e6939e1ee1168ba45d3ca606fc8add4091537a5e265171"
+    },
+    {
+      "path": "legacy/scripts/verify_recording_review_v5.py",
+      "original_sha256": "94c16ff06061cc6c1bcfc7a68bbe8fb0db8f5b99561e5cdb058aa116625541dc",
+      "packaged_sha256": "4a682f903d52fa06181664a521d7a71dc4ac9f795d7e53f7de21081ef1640260"
+    },
+    {
+      "path": "legacy/scripts/verify_recording_review_v6.py",
+      "original_sha256": "4cc97b13d8a1830a772bf777c52e3d117310094ffc82b8d1c86ee5a4d088e754",
+      "packaged_sha256": "53b1a31211b11caf52ab5438db6a17bb9744a9153f7bce569cbe55fb63ffc575"
+    },
+    {
+      "path": "legacy/scripts/verify_recording_review_v7.py",
+      "original_sha256": "7619c552cf98c2688015bc7533b58fae3657970c2030e5804b25ddc7582344e6",
+      "packaged_sha256": "711a81b1ab08764aac5ef6fa62cb372b748349b130170bfe5766a30ba6bd5914"
+    },
+    {
+      "path": "legacy/scripts/verify_recording_review_v8.py",
+      "original_sha256": "7020d59874fc979053e88c404ed2eb71a54865e5cd85cefaaa2adf3aeb524e5c",
+      "packaged_sha256": "4445ec930265475579d47cfb7224115473d41919d8ae1d69f55e4b809e235922"
+    }
+  ],
+  "datasets": {
+    "portrait": {
+      "original_path": "outputs/c5-red-name-aijing-himeki/corrected_boxes.jsonl",
+      "sha256": "b5a28b93801f287cf636a7e33480e49fc44a51bf457cc2f168477588b51a4786",
+      "frame_count": 6824
+    },
+    "landscape": {
+      "original_path": "outputs/neon-screen-recording-v8/corrected_boxes.jsonl",
+      "sha256": "96a4a9b1744dcb433016ffe78ceda71a7ab31fe61e16b17365000069023dc948",
+      "frame_count": 6657
+    }
+  }
+}

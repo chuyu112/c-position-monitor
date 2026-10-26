@@ -1,0 +1,216 @@
+{
+  "video": "/path/to/user/Desktop/c5.mp4",
+  "fps": 30,
+  "corrections": [
+    {
+      "start_frame": 73,
+      "end_frame_exclusive": 677,
+      "c_slot": "left",
+      "allowed_previous_names": [
+        "OA",
+        "XILI"
+      ],
+      "member": "XILI",
+      "other_member": "AIJING",
+      "reason": "User identified the left C as XILI; retain this supplied label through the uninterrupted opening double-C segment. End at the existing change to a single C. No facial identification is performed.",
+      "reference": "/var/folders/5z/tw0z8d5j4c59kmk4rr_25qvh0000gn/T/codex-clipboard-5fbc160d-dcca-426c-ab22-928c4db1a94a.png"
+    },
+    {
+      "start_frame": 3801,
+      "end_frame_exclusive": 3889,
+      "c_slot": "only",
+      "allowed_previous_names": [
+        "AYUNE"
+      ],
+      "member": "OA",
+      "reason": "User supplied OA as the name for the single C in screenshot 1. Apply to this continuous single-C segment, before it becomes a double C.",
+      "reference": "/var/folders/5z/tw0z8d5j4c59kmk4rr_25qvh0000gn/T/codex-clipboard-9f371b03-fae5-4465-8f83-ff4f366127f9.png"
+    },
+    {
+      "start_frame": 3889,
+      "end_frame_exclusive": 4045,
+      "c_slot": "left",
+      "allowed_previous_names": [
+        "AIJING",
+        "OA"
+      ],
+      "member": "OA",
+      "other_member": "AYUNE",
+      "reason": "User supplied OA as the name for the left C in screenshot 2. Keep this name through the continuous left-C role, until the existing C box transfers to the next performer. Preserve the right C label.",
+      "reference": "/var/folders/5z/tw0z8d5j4c59kmk4rr_25qvh0000gn/T/codex-clipboard-827c82e2-8bf1-4392-9c36-0fa6f7e411c7.png"
+    },
+    {
+      "start_frame": 6378,
+      "end_frame_exclusive": 6408,
+      "c_slot": "only",
+      "allowed_previous_names": [
+        "AYUNE",
+        "OA"
+      ],
+      "member": "VORA",
+      "reason": "User explicitly identified the short-haired performer as VORA, South Korea. Retain this name across the ending single-C segment until the existing C box transfers to OA at frame 6408. User's later screenshot shows the same contiguous segment with an incorrect AYUNE label.",
+      "reference": "/var/folders/5z/tw0z8d5j4c59kmk4rr_25qvh0000gn/T/codex-clipboard-dec58f59-34ad-4c56-8c4b-d5c01338a9a4.png",
+      "additional_reference": "/var/folders/5z/tw0z8d5j4c59kmk4rr_25qvh0000gn/T/codex-clipboard-dd619471-ddcc-49c4-abac-ca9ae55e4c06.png"
+    },
+    {
+      "start_frame": 6408,
+      "end_frame_exclusive": 6591,
+      "c_slot": "only",
+      "allowed_previous_names": [
+        "AIJING",
+        "AYUNE",
+        "OA"
+      ],
+      "member": "OA",
+      "reason": "User identified OA in both ending screenshots. Keep OA for this uninterrupted final C segment, after the handoff from VORA, including the final group pose. Preserve the existing end of C annotation at frame 6591.",
+      "reference": "/var/folders/5z/tw0z8d5j4c59kmk4rr_25qvh0000gn/T/codex-clipboard-89a873be-43b4-4317-a30a-c6bde1debe76.png",
+      "additional_reference": "/var/folders/5z/tw0z8d5j4c59kmk4rr_25qvh0000gn/T/codex-clipboard-592fee4f-728c-40f1-982c-97d5ffda43c1.png"
+    },
+    {
+      "start_frame": 1448,
+      "end_frame_exclusive": 1488,
+      "c_slot": "only",
+      "allowed_previous_names": [
+        "HIMEKI",
+        "AYUNE"
+      ],
+      "member": "HIMEKI",
+      "reason": "Keep the existing HIMEKI label on the same uninterrupted C body track, until the handoff at frame 1488."
+    },
+    {
+      "start_frame": 2595,
+      "end_frame_exclusive": 2869,
+      "c_slot": "left",
+      "allowed_previous_names": [
+        "AIJING",
+        "YOUNG"
+      ],
+      "member": "AIJING",
+      "reason": "User explicitly corrects the left C at 1:32 to AIJING. Lock the full continuous left C segment; the right C remains AYUNE.",
+      "other_member": "AYUNE"
+    },
+    {
+      "start_frame": 4508,
+      "end_frame_exclusive": 4699,
+      "c_slot": "left",
+      "allowed_previous_names": [
+        "OA",
+        "HIMEKI"
+      ],
+      "member": "OA",
+      "reason": "User explicitly confirms OA on the left throughout the continuous double C segment at 2:30–2:36.",
+      "other_member": [
+        "AYUNE",
+        "RADA",
+        "MERCI"
+      ]
+    },
+    {
+      "start_frame": 4508,
+      "end_frame_exclusive": 4699,
+      "c_slot": "right",
+      "allowed_previous_names": [
+        "AYUNE",
+        "RADA",
+        "MERCI"
+      ],
+      "member": "AYUNE",
+      "reason": "User explicitly confirms AYUNE on the right throughout the same double C segment. Do not relabel when another performer passes behind.",
+      "other_member": "OA"
+    },
+    {
+      "start_frame": 5162,
+      "end_frame_exclusive": 5389,
+      "c_slot": "only",
+      "allowed_previous_names": [
+        "YOUNG",
+        "RADA"
+      ],
+      "member": "YOUNG",
+      "reason": "User confirms YOUNG remains C when the old tag jumps to RADA. End at the actual next C-body handoff at frame 5389."
+    },
+    {
+      "start_frame": 5389,
+      "end_frame_exclusive": 5475,
+      "c_slot": "only",
+      "allowed_previous_names": [
+        "RADA"
+      ],
+      "member": "VORA",
+      "reason": "Apply user-confirmed VORA / South Korea to the short-haired C body from its entrance until the existing double C segment. No facial identification is performed."
+    },
+    {
+      "start_frame": 5552,
+      "end_frame_exclusive": 5568,
+      "c_slot": "right",
+      "allowed_previous_names": [
+        "RADA"
+      ],
+      "member": "VORA",
+      "reason": "User corrects the short-haired C tagged RADA at 3:05. VORA is South Korean; RADA is Thai. Continue the preceding VORA C segment.",
+      "other_member": "HIMEKI"
+    },
+    {
+      "start_frame": 4699,
+      "end_frame_exclusive": 4796,
+      "c_slot": "only",
+      "member": "OA",
+      "allowed_previous_names": [
+        "OA",
+        "YOUNG"
+      ],
+      "reason": "User confirms this continuing C is OA. Keep that supplied label stable through the old OA/YOUNG flicker before the paired phrase.",
+      "reference": "codex-clipboard-bc037d35-f7aa-4625-8967-168bbaa00089.png"
+    },
+    {
+      "start_frame": 4796,
+      "end_frame_exclusive": 4927,
+      "c_slot": "left",
+      "member": "OA",
+      "allowed_previous_names": [
+        "OA",
+        "HIMEKI"
+      ],
+      "other_member": "YOUNG",
+      "reason": "User explicitly confirms the left C is OA, not HIMEKI, throughout this OA/YOUNG paired phrase.",
+      "reference": "codex-clipboard-97dd81d2-de0c-4f02-acf7-580807516e85.png"
+    },
+    {
+      "start_frame": 2432,
+      "end_frame_exclusive": 2441,
+      "c_slot": "left",
+      "member": "OA",
+      "allowed_previous_names": [
+        "AYUNE",
+        "OA"
+      ],
+      "other_member": "MERCI",
+      "reason": "User explicitly identifies the left C at 1:21 as OA. The same continuous C body remains OA until it turns away; AYUNE belongs to the incoming C, not this departing box.",
+      "reference": "codex-clipboard-2c20e182-8027-4956-b87d-87db332156b5.png"
+    },
+    {
+      "start_frame": 3497,
+      "end_frame_exclusive": 3527,
+      "c_slot": "only",
+      "member": "AIJING",
+      "allowed_previous_names": [
+        "XILI",
+        "AIJING"
+      ],
+      "reason": "User explicitly confirms the central C at 1:57 is AIJING. Keep her name and supplied Chinese name throughout this continuous solo C interval instead of switching to XILI for 30 frames.",
+      "reference": "codex-clipboard-cc44b3e2-3b50-4211-873f-5e46225f0490.png"
+    },
+    {
+      "start_frame": 3602,
+      "end_frame_exclusive": 3615,
+      "c_slot": "only",
+      "member": "HIMEKI",
+      "allowed_previous_names": [
+        "MERCI",
+        "HIMEKI"
+      ],
+      "reason": "User explicitly confirms the incoming central C at 2:00 is HIMEKI. Correct the brief MERCI tag before the existing HIMEKI interval.",
+      "reference": "codex-clipboard-081c38cb-ecaa-4546-a415-02a85ab1614f.png"
+    }
+  ]
+}

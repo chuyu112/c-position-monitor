@@ -1,0 +1,118 @@
+{
+  "baseline": "/path/to/user/Documents/c detect/outputs/neon-screen-recording-v7/corrected_boxes.jsonl",
+  "baseline_sha256": "cfff050016946a994131df5c549c02cc1f92e81c18b03b718ee192f2a39c91d1",
+  "corrections": [
+    {
+      "frames": [
+        4071,
+        4085
+      ],
+      "members": [
+        "AIJING"
+      ],
+      "reason": "用户确认 02:16 应为中间浅色头发的 AIJING 单 C；取消短暂误标 XILI，沿 AIJING 向中间移动及俯身动作连续跟框。"
+    },
+    {
+      "frames": [
+        4071,
+        4115
+      ],
+      "head_body_keyframes_720p": {
+        "4071": [
+          566,
+          400,
+          629,
+          44
+        ],
+        "4075": [
+          589,
+          402,
+          634,
+          44
+        ],
+        "4080": [
+          615,
+          400,
+          653,
+          44
+        ],
+        "4084": [
+          627,
+          424,
+          643,
+          44
+        ],
+        "4088": [
+          644,
+          425,
+          641,
+          44
+        ],
+        "4092": [
+          649,
+          428,
+          638,
+          44
+        ],
+        "4096": [
+          652,
+          432,
+          637,
+          44
+        ],
+        "4100": [
+          654,
+          432,
+          637,
+          44
+        ],
+        "4104": [
+          655,
+          430,
+          637,
+          44
+        ],
+        "4108": [
+          654,
+          421,
+          635,
+          44
+        ],
+        "4111": [
+          654,
+          418,
+          635,
+          44
+        ],
+        "4114": [
+          652,
+          416,
+          635,
+          44
+        ],
+        "4115": [
+          652,
+          415,
+          634,
+          44
+        ]
+      },
+      "reason": "按头部与身体连续移动校准红框，修正交接后框底超出脚下的位置。"
+    }
+  ],
+  "member_frame_deltas": {
+    "AIJING": 14,
+    "XILI": -14,
+    "OA": 0,
+    "MERCI": 0,
+    "HIMEKI": 0,
+    "AYUNE": 0,
+    "YOUNG": 0,
+    "VORA": 0,
+    "RADA": 0
+  },
+  "ranking_footer_visible": false,
+  "music_start_frame": 60,
+  "selection_rule": "02:15.700 起由 AIJING 单 C 接续，修正短暂误标为 XILI 的 14 帧；第七版其他标注不变。",
+  "prior_corrections_preserved": true
+}

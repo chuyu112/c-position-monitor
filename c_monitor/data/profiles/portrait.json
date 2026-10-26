@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "name": "portrait",
+  "description": "C5 最终复核竖屏",
+  "annotations": "../reviewed/portrait.jsonl",
+  "fps": 30,
+  "frame_count": 6824,
+  "annotation_size": [
+    720,
+    1280
+  ],
+  "output_size": [
+    720,
+    1280
+  ],
+  "source_trim_seconds": 0,
+  "source_crop_xywh": null,
+  "music_start_frame": 0,
+  "members": [
+    "AIJING",
+    "XILI",
+    "OA",
+    "MERCI",
+    "AYUNE",
+    "YOUNG",
+    "VORA",
+    "RADA",
+    "HIMEKI"
+  ],
+  "chinese_names": {
+    "AIJING": "盛艾敬",
+    "XILI": "梁淅沥",
+    "MERCI": "马西桐"
+  },
+  "flags": {
+    "AIJING": [
+      "CN"
+    ],
+    "XILI": [
+      "CN"
+    ],
+    "OA": [
+      "US",
+      "JP"
+    ],
+    "MERCI": [
+      "CN"
+    ],
+    "AYUNE": [
+      "KR"
+    ],
+    "YOUNG": [
+      "KR"
+    ],
+    "VORA": [
+      "KR"
+    ],
+    "RADA": [
+      "TH"
+    ],
+    "HIMEKI": [
+      "JP"
+    ]
+  },
+  "expected_member_frames": {
+    "AIJING": 1843,
+    "XILI": 1292,
+    "OA": 1586,
+    "MERCI": 802,
+    "AYUNE": 941,
+    "YOUNG": 1171,
+    "VORA": 408,
+    "RADA": 365,
+    "HIMEKI": 565
+  },
+  "expected_c_count_frames": {
+    "1": 4193,
+    "2": 2390,
+    "0": 241
+  },
+  "annotations_sha256": "b5a28b93801f287cf636a7e33480e49fc44a51bf457cc2f168477588b51a4786",
+  "source_hint": "原始未画框的 c5.mp4，720 × 1280",
+  "reviewed_baseline": "outputs/c5-red-name-aijing-himeki/corrected_boxes.jsonl"
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "c-position-monitor"
+version = "1.0.0"
+description = "Portrait and landscape dance C-position review, timing and rendering"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24,<3", "opencv-python==4.11.0.86", "Pillow>=10.1,<13"]
+
+[project.optional-dependencies]
+detect = ["ultralytics==8.4.182", "lap==0.5.13"]
+
+[project.scripts]
+c-monitor = "c_monitor.__main__:main"
+c-detect = "c_detect.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["c_monitor*", "c_detect*"]
+
+[tool.setuptools.package-data]
+c_monitor = ["data/profiles/*.json", "data/reviewed/*.jsonl", "data/flags/*.png"]

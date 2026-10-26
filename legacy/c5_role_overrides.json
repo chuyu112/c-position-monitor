@@ -1,0 +1,1185 @@
+{
+  "video": "/path/to/user/Desktop/c5.mp4",
+  "fps": 30,
+  "corrections": [
+    {
+      "start_frame": 3072,
+      "end_frame_exclusive": 3157,
+      "expected_previous_members": [
+        "YOUNG",
+        "XILI"
+      ],
+      "member": "OA",
+      "reason": "User identifies the middle performer as OA and the sole C while the two front performers hold supporting poses. Replace the two supporting-performer boxes with one stable narrow body box. Keep the existing handoff to the next C at frame 3157.",
+      "reference": "/var/folders/5z/tw0z8d5j4c59kmk4rr_25qvh0000gn/T/codex-clipboard-0cdd8e9b-4613-4cb2-805a-b1a511be8f81.png",
+      "box_keyframes": [
+        {
+          "frame": 3072,
+          "box": [
+            281,
+            350,
+            457,
+            1055
+          ]
+        },
+        {
+          "frame": 3084,
+          "box": [
+            274,
+            350,
+            450,
+            1055
+          ]
+        },
+        {
+          "frame": 3096,
+          "box": [
+            247,
+            350,
+            423,
+            1055
+          ]
+        },
+        {
+          "frame": 3108,
+          "box": [
+            249,
+            350,
+            425,
+            1055
+          ]
+        },
+        {
+          "frame": 3120,
+          "box": [
+            255,
+            350,
+            431,
+            1055
+          ]
+        },
+        {
+          "frame": 3132,
+          "box": [
+            257,
+            350,
+            433,
+            1055
+          ]
+        },
+        {
+          "frame": 3144,
+          "box": [
+            279,
+            350,
+            455,
+            1055
+          ]
+        },
+        {
+          "frame": 3156,
+          "box": [
+            406,
+            350,
+            582,
+            1055
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "add_right",
+      "start_frame": 1461,
+      "end_frame_exclusive": 1488,
+      "expected_previous_members": [
+        "HIMEKI"
+      ],
+      "member": "XILI",
+      "reason": "User identifies XILI as an already-active second C beside the existing HIMEKI C. Start the box as the right performer begins this phrase, preserve the original first box, and join the existing XILI box at frame 1488.",
+      "reference": "codex-clipboard-50bae7e9-be70-4524-8c7b-7efb391ce42b.png",
+      "box_keyframes": [
+        {
+          "frame": 1461,
+          "box": [
+            493,
+            390,
+            597,
+            1010
+          ]
+        },
+        {
+          "frame": 1470,
+          "box": [
+            544,
+            360,
+            648,
+            1010
+          ]
+        },
+        {
+          "frame": 1479,
+          "box": [
+            561,
+            312,
+            665,
+            1010
+          ]
+        },
+        {
+          "frame": 1487,
+          "box": [
+            551,
+            274,
+            655,
+            1010
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "add_right",
+      "start_frame": 2899,
+      "end_frame_exclusive": 2915,
+      "expected_previous_members": [
+        "YOUNG"
+      ],
+      "member": "XILI",
+      "reason": "User reports the second C box appears late around 1:37. Start the right C at its entrance into the shared phrase and connect to the existing XILI track. The supplied existing YOUNG C box is unchanged.",
+      "reference": "codex-clipboard-c073ce65-ec24-4d43-bd14-8bb9c1d37347.png",
+      "box_keyframes": [
+        {
+          "frame": 2899,
+          "box": [
+            408,
+            376,
+            540,
+            1112
+          ]
+        },
+        {
+          "frame": 2905,
+          "box": [
+            450,
+            376,
+            582,
+            1112
+          ]
+        },
+        {
+          "frame": 2911,
+          "box": [
+            485,
+            394,
+            617,
+            1112
+          ]
+        },
+        {
+          "frame": 2914,
+          "box": [
+            498,
+            401,
+            630,
+            1112
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "add_left",
+      "start_frame": 5342,
+      "end_frame_exclusive": 5389,
+      "expected_previous_members": [
+        "YOUNG"
+      ],
+      "member": "HIMEKI",
+      "reason": "User specifies the two outer foreground performers form a double C here. Add the left C body track, carrying its existing adjacent HIMEKI annotation, while retaining the corrected YOUNG tag on the original right C. End at the next C handoff.",
+      "reference": "codex-clipboard-6b6a6f7c-541d-42d5-bdfd-ce7a0ec4a82a.png",
+      "box_keyframes": [
+        {
+          "frame": 5342,
+          "box": [
+            104,
+            310,
+            250,
+            1108
+          ]
+        },
+        {
+          "frame": 5352,
+          "box": [
+            98,
+            310,
+            244,
+            1108
+          ]
+        },
+        {
+          "frame": 5364,
+          "box": [
+            90,
+            310,
+            236,
+            1108
+          ]
+        },
+        {
+          "frame": 5376,
+          "box": [
+            90,
+            310,
+            236,
+            1108
+          ]
+        },
+        {
+          "frame": 5388,
+          "box": [
+            56,
+            310,
+            202,
+            1108
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 4680,
+      "end_frame_exclusive": 4699,
+      "expected_previous_members": [
+        "OA",
+        "AYUNE"
+      ],
+      "slot": 0,
+      "reason": "Correct the final movement of the user-confirmed OA C body into the middle, instead of holding the previous left position.",
+      "box_keyframes": [
+        {
+          "frame": 4680,
+          "box": [
+            122,
+            525,
+            222,
+            1060
+          ]
+        },
+        {
+          "frame": 4686,
+          "box": [
+            170,
+            490,
+            282,
+            1060
+          ]
+        },
+        {
+          "frame": 4692,
+          "box": [
+            220,
+            440,
+            336,
+            1060
+          ]
+        },
+        {
+          "frame": 4698,
+          "box": [
+            270,
+            406,
+            392,
+            1060
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 4680,
+      "end_frame_exclusive": 4699,
+      "expected_previous_members": [
+        "OA",
+        "AYUNE"
+      ],
+      "slot": 1,
+      "reason": "Correct the right AYUNE C box that remained in empty space as the same body moved inward. Keep both supplied labels and non-overlapping narrow boxes until the existing single C handoff.",
+      "box_keyframes": [
+        {
+          "frame": 4680,
+          "box": [
+            512,
+            516,
+            611,
+            1044
+          ]
+        },
+        {
+          "frame": 4686,
+          "box": [
+            445,
+            470,
+            546,
+            1044
+          ]
+        },
+        {
+          "frame": 4692,
+          "box": [
+            415,
+            420,
+            520,
+            1044
+          ]
+        },
+        {
+          "frame": 4698,
+          "box": [
+            402,
+            405,
+            513,
+            1044
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 5316,
+      "end_frame_exclusive": 5342,
+      "expected_previous_members": [
+        "YOUNG"
+      ],
+      "slot": 0,
+      "reason": "The old box froze on a background body while YOUNG remained C. Restore the front C torso trajectory using reviewed body keyframes; its name remains YOUNG.",
+      "box_keyframes": [
+        {
+          "frame": 5316,
+          "box": [
+            251,
+            302,
+            395,
+            1121
+          ]
+        },
+        {
+          "frame": 5324,
+          "box": [
+            257,
+            292,
+            401,
+            1121
+          ]
+        },
+        {
+          "frame": 5330,
+          "box": [
+            268,
+            320,
+            412,
+            1121
+          ]
+        },
+        {
+          "frame": 5336,
+          "box": [
+            302,
+            335,
+            446,
+            1121
+          ]
+        },
+        {
+          "frame": 5341,
+          "box": [
+            375,
+            332,
+            519,
+            1118
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "replace",
+      "start_frame": 5877,
+      "end_frame_exclusive": 5887,
+      "expected_previous_members": [
+        "YOUNG"
+      ],
+      "turned_away_member": "YOUNG",
+      "member": "RADA",
+      "reason": "User confirms the central forward-performing member is RADA / Thailand at 3:16. The preceding C is turning away and leaving. Transfer the sole C box and timer immediately, before the old delayed handoff at frame 5887.",
+      "reference": "codex-clipboard-8323aac8-c6a7-4c09-9b0e-4b3e9a0e83de.png",
+      "additional_reference": "codex-clipboard-c9b4bc39-c2d9-4706-9f73-3a4be41da0ae.png",
+      "box_keyframes": [
+        {
+          "frame": 5877,
+          "box": [
+            294,
+            350,
+            412,
+            1064
+          ]
+        },
+        {
+          "frame": 5882,
+          "box": [
+            276,
+            351,
+            394,
+            1064
+          ]
+        },
+        {
+          "frame": 5886,
+          "box": [
+            259,
+            353,
+            377,
+            1064
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "replace",
+      "start_frame": 6392,
+      "end_frame_exclusive": 6408,
+      "expected_previous_members": [
+        "VORA"
+      ],
+      "turned_away_member": "VORA",
+      "member": "OA",
+      "reason": "User confirms OA takes the sole C role as VORA turns away at 3:33. Move the box to the user-confirmed incoming body and transfer all these frames of time from VORA to OA; join the existing OA track at frame 6408.",
+      "reference": "codex-clipboard-7886455d-52f0-4ac0-9b6e-e19aeac1dd08.png",
+      "box_keyframes": [
+        {
+          "frame": 6392,
+          "box": [
+            324,
+            408,
+            402,
+            953
+          ]
+        },
+        {
+          "frame": 6396,
+          "box": [
+            322,
+            406,
+            400,
+            953
+          ]
+        },
+        {
+          "frame": 6400,
+          "box": [
+            320,
+            403,
+            398,
+            953
+          ]
+        },
+        {
+          "frame": 6407,
+          "box": [
+            320,
+            398,
+            398,
+            953
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 4465,
+      "end_frame_exclusive": 4498,
+      "expected_previous_members": [
+        "AIJING"
+      ],
+      "slot": 0,
+      "reason": "User reports that the 2:29 box misses the C body and asks for a shorter box to reveal the flag. Re-align the torso trajectory, lower the upper edge slightly, keep a narrow full-height box and leave footer space.",
+      "reference": "codex-clipboard-56f92aed-116f-4f5d-b6c9-fac701a16960.png",
+      "box_keyframes": [
+        {
+          "frame": 4465,
+          "box": [
+            267,
+            390,
+            413,
+            1121
+          ]
+        },
+        {
+          "frame": 4470,
+          "box": [
+            278,
+            375,
+            424,
+            1168
+          ]
+        },
+        {
+          "frame": 4475,
+          "box": [
+            321,
+            365,
+            467,
+            1168
+          ]
+        },
+        {
+          "frame": 4480,
+          "box": [
+            341,
+            350,
+            487,
+            1168
+          ]
+        },
+        {
+          "frame": 4485,
+          "box": [
+            337,
+            350,
+            483,
+            1168
+          ]
+        },
+        {
+          "frame": 4490,
+          "box": [
+            285,
+            360,
+            431,
+            1168
+          ]
+        },
+        {
+          "frame": 4494,
+          "box": [
+            257,
+            355,
+            403,
+            1168
+          ]
+        },
+        {
+          "frame": 4497,
+          "box": [
+            158,
+            340,
+            304,
+            1168
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "replace",
+      "start_frame": 4504,
+      "end_frame_exclusive": 4508,
+      "expected_previous_members": [
+        "AIJING"
+      ],
+      "turned_away_member": "AIJING",
+      "member": "OA",
+      "reason": "The outgoing C has turned away. After the unassigned transition, the incoming user-confirmed OA body becomes clear at frame 4504. Join the established OA/AYUNE pair at 4508; do not prematurely box the departing body on the right.",
+      "box_keyframes": [
+        {
+          "frame": 4504,
+          "box": [
+            235,
+            408,
+            354,
+            1044
+          ]
+        },
+        {
+          "frame": 4507,
+          "box": [
+            154,
+            408,
+            273,
+            1044
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "clear",
+      "start_frame": 4498,
+      "end_frame_exclusive": 4504,
+      "expected_previous_members": [
+        "AIJING"
+      ],
+      "turned_away_member": "AIJING",
+      "reason": "Remove the outgoing C immediately on turning away. Incoming main performance is not yet clear in this short transition, so display no red box and accumulate no C time."
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 1742,
+      "end_frame_exclusive": 1750,
+      "expected_previous_members": [
+        "YOUNG"
+      ],
+      "slot": 0,
+      "reason": "Make room for the user-confirmed second C as the two bodies separate. Keep a narrow box on the existing YOUNG torso and avoid overlapping red outlines.",
+      "reference": "codex-clipboard-dd798ad7-c1ad-4817-b6db-385ab77351f6.png",
+      "box_keyframes": [
+        {
+          "frame": 1742,
+          "box": [
+            340,
+            278,
+            450,
+            1121
+          ]
+        },
+        {
+          "frame": 1746,
+          "box": [
+            360,
+            258,
+            496,
+            1120
+          ]
+        },
+        {
+          "frame": 1749,
+          "box": [
+            379,
+            256,
+            524,
+            1121
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "add_left",
+      "start_frame": 1742,
+      "end_frame_exclusive": 1770,
+      "expected_previous_members": [
+        "YOUNG"
+      ],
+      "member": "XILI",
+      "reason": "User confirms a double C at frame 1750 (about 00:58). Add the incoming left body from its shared phrase onset. Carry the existing XILI annotation along the continuous body movement into its following solo section; do not assign by face. Both visible C boxes accumulate time.",
+      "reference": "codex-clipboard-dd798ad7-c1ad-4817-b6db-385ab77351f6.png",
+      "box_keyframes": [
+        {
+          "frame": 1742,
+          "box": [
+            270,
+            350,
+            334,
+            1074
+          ]
+        },
+        {
+          "frame": 1746,
+          "box": [
+            260,
+            330,
+            348,
+            1080
+          ]
+        },
+        {
+          "frame": 1749,
+          "box": [
+            255,
+            318,
+            355,
+            1080
+          ]
+        },
+        {
+          "frame": 1752,
+          "box": [
+            252,
+            315,
+            362,
+            1085
+          ]
+        },
+        {
+          "frame": 1755,
+          "box": [
+            250,
+            315,
+            360,
+            1100
+          ]
+        },
+        {
+          "frame": 1760,
+          "box": [
+            260,
+            330,
+            370,
+            1115
+          ]
+        },
+        {
+          "frame": 1765,
+          "box": [
+            270,
+            344,
+            380,
+            1100
+          ]
+        },
+        {
+          "frame": 1769,
+          "box": [
+            276,
+            345,
+            386,
+            1085
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "replace",
+      "start_frame": 1770,
+      "end_frame_exclusive": 1779,
+      "expected_previous_members": [
+        "YOUNG"
+      ],
+      "turned_away_member": "YOUNG",
+      "member": "XILI",
+      "reason": "End the double C as YOUNG begins turning away. Continue only the already-active XILI body and timer and join the original solo annotation at 1779.",
+      "reference": "codex-clipboard-dd798ad7-c1ad-4817-b6db-385ab77351f6.png",
+      "box_keyframes": [
+        {
+          "frame": 1770,
+          "box": [
+            276,
+            345,
+            386,
+            1085
+          ]
+        },
+        {
+          "frame": 1774,
+          "box": [
+            270,
+            339,
+            380,
+            1083
+          ]
+        },
+        {
+          "frame": 1778,
+          "box": [
+            267,
+            332,
+            378,
+            1081
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 4770,
+      "end_frame_exclusive": 4796,
+      "expected_previous_members": [
+        "OA"
+      ],
+      "slot": 0,
+      "reason": "Narrow the existing OA box around the left body to make room for the confirmed YOUNG second C, without overlapping outlines.",
+      "box_keyframes": [
+        {
+          "frame": 4770,
+          "box": [
+            220,
+            367,
+            308,
+            1036
+          ]
+        },
+        {
+          "frame": 4778,
+          "box": [
+            220,
+            373,
+            308,
+            1032
+          ]
+        },
+        {
+          "frame": 4787,
+          "box": [
+            221,
+            373,
+            309,
+            1032
+          ]
+        },
+        {
+          "frame": 4795,
+          "box": [
+            236,
+            384,
+            307,
+            1039
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "add_right",
+      "start_frame": 4770,
+      "end_frame_exclusive": 4796,
+      "expected_previous_members": [
+        "OA"
+      ],
+      "member": "YOUNG",
+      "reason": "User confirms OA plus YOUNG at about 2:40. Start the missing right C at the onset of its shared arm phrase and join the existing double C annotation at 4796.",
+      "reference": "codex-clipboard-bc037d35-f7aa-4625-8967-168bbaa00089.png",
+      "box_keyframes": [
+        {
+          "frame": 4770,
+          "box": [
+            321,
+            366,
+            405,
+            1034
+          ]
+        },
+        {
+          "frame": 4778,
+          "box": [
+            320,
+            366,
+            404,
+            1030
+          ]
+        },
+        {
+          "frame": 4787,
+          "box": [
+            324,
+            366,
+            408,
+            1027
+          ]
+        },
+        {
+          "frame": 4795,
+          "box": [
+            326,
+            372,
+            397,
+            1016
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "remove_member",
+      "start_frame": 4918,
+      "end_frame_exclusive": 4923,
+      "expected_previous_members": [
+        "OA",
+        "YOUNG"
+      ],
+      "member": "OA",
+      "turned_away_member": "OA",
+      "reason": "The reviewed paired phrase ends as OA starts turning away. Remove her box and timer immediately; preserve the other active C until its own turn."
+    },
+    {
+      "operation": "replace",
+      "start_frame": 4923,
+      "end_frame_exclusive": 4927,
+      "expected_previous_members": [
+        "OA",
+        "YOUNG"
+      ],
+      "member": "MERCI",
+      "turned_away_member": "YOUNG",
+      "reason": "Both previous C performers now turn away and leave. Transfer to the incoming central body, continuing its existing MERCI annotation from frame 4927.",
+      "box_keyframes": [
+        {
+          "frame": 4923,
+          "box": [
+            311,
+            414,
+            407,
+            1034
+          ]
+        },
+        {
+          "frame": 4926,
+          "box": [
+            318,
+            414,
+            414,
+            1034
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "remove_member",
+      "start_frame": 5558,
+      "end_frame_exclusive": 5568,
+      "expected_previous_members": [
+        "HIMEKI",
+        "VORA"
+      ],
+      "member": "HIMEKI",
+      "turned_away_member": "HIMEKI",
+      "reason": "User flags the left old box around 3:06 after its performer turns away. Remove the departing HIMEKI C immediately and keep only the still-performing VORA.",
+      "reference": "codex-clipboard-d876b2db-a4ec-44fe-9f77-37200b35c245.png"
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 5574,
+      "end_frame_exclusive": 5588,
+      "expected_previous_members": [
+        "VORA"
+      ],
+      "slot": 0,
+      "reason": "Correct the outgoing C body track before its turn so the box does not freeze over a different background body.",
+      "box_keyframes": [
+        {
+          "frame": 5574,
+          "box": [
+            339,
+            323,
+            484,
+            1112
+          ]
+        },
+        {
+          "frame": 5578,
+          "box": [
+            380,
+            320,
+            525,
+            1112
+          ]
+        },
+        {
+          "frame": 5582,
+          "box": [
+            450,
+            315,
+            595,
+            1112
+          ]
+        },
+        {
+          "frame": 5587,
+          "box": [
+            530,
+            300,
+            675,
+            1112
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "replace",
+      "start_frame": 5588,
+      "end_frame_exclusive": 5598,
+      "expected_previous_members": [
+        "VORA"
+      ],
+      "member": "YOUNG",
+      "turned_away_member": "VORA",
+      "reason": "User explicitly confirms YOUNG takes the C role as VORA turns away at 3:06. Stop VORA timing and box the incoming user-confirmed body immediately, joining the established YOUNG track at frame 5598.",
+      "reference": "codex-clipboard-d9231450-07cb-4736-8425-f131e18caeef.png",
+      "box_keyframes": [
+        {
+          "frame": 5588,
+          "box": [
+            243,
+            340,
+            383,
+            1092
+          ]
+        },
+        {
+          "frame": 5593,
+          "box": [
+            241,
+            339,
+            385,
+            1095
+          ]
+        },
+        {
+          "frame": 5597,
+          "box": [
+            240,
+            338,
+            385,
+            1097
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "remove_member",
+      "start_frame": 2436,
+      "end_frame_exclusive": 2439,
+      "expected_previous_members": [
+        "OA",
+        "MERCI"
+      ],
+      "member": "OA",
+      "turned_away_member": "OA",
+      "reason": "At the end of the user-reported 1:21 phrase, OA starts turning away. Remove her C box and stop her timer immediately, while the other C finishes the phrase."
+    },
+    {
+      "operation": "replace",
+      "start_frame": 2439,
+      "end_frame_exclusive": 2441,
+      "expected_previous_members": [
+        "OA",
+        "MERCI"
+      ],
+      "member": "AYUNE",
+      "turned_away_member": "MERCI",
+      "reason": "The second outgoing C starts turning away. Transfer to the incoming central body continuing its existing AYUNE annotation and keep its name off the departing OA body.",
+      "box_keyframes": [
+        {
+          "frame": 2439,
+          "box": [
+            313,
+            401,
+            403,
+            980
+          ]
+        },
+        {
+          "frame": 2440,
+          "box": [
+            312,
+            401,
+            402,
+            980
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 2441,
+      "end_frame_exclusive": 2455,
+      "expected_previous_members": [
+        "AYUNE"
+      ],
+      "slot": 0,
+      "reason": "Join the incoming C box smoothly through partial foot occlusion; preserve its full-body height instead of briefly shrinking below the knees during the handoff.",
+      "box_keyframes": [
+        {
+          "frame": 2441,
+          "box": [
+            311,
+            401,
+            401,
+            980
+          ]
+        },
+        {
+          "frame": 2445,
+          "box": [
+            310,
+            401,
+            400,
+            990
+          ]
+        },
+        {
+          "frame": 2450,
+          "box": [
+            306,
+            389,
+            398,
+            1023
+          ]
+        },
+        {
+          "frame": 2454,
+          "box": [
+            296,
+            371,
+            400,
+            1048
+          ]
+        }
+      ]
+    },
+    {
+      "operation": "clear",
+      "start_frame": 3602,
+      "end_frame_exclusive": 3604,
+      "expected_previous_members": [
+        "HIMEKI"
+      ],
+      "reason": "At this reviewed handoff, the outgoing body is turning away and briefly obscures the incoming C. Remove the old lingering outline and pause timing until the incoming body clears, rather than assigning its label to the departing performer."
+    },
+    {
+      "operation": "adjust_box",
+      "start_frame": 3604,
+      "end_frame_exclusive": 3615,
+      "expected_previous_members": [
+        "HIMEKI"
+      ],
+      "slot": 0,
+      "reason": "Align the box to the incoming user-confirmed HIMEKI body; the prior box froze too far right and low during the previous performer's exit. Join the original HIMEKI box at frame 3615.",
+      "box_keyframes": [
+        {
+          "frame": 3604,
+          "box": [
+            330,
+            328,
+            434,
+            1040
+          ]
+        },
+        {
+          "frame": 3606,
+          "box": [
+            325,
+            334,
+            429,
+            1040
+          ]
+        },
+        {
+          "frame": 3610,
+          "box": [
+            315,
+            344,
+            419,
+            1050
+          ]
+        },
+        {
+          "frame": 3614,
+          "box": [
+            302,
+            344,
+            402,
+            1091
+          ]
+        }
+      ]
+    }
+  ],
+  "selection_rules": [
+    "用户确认：转身或背对屏幕的人都不当 C，立即撤框并停止计时。",
+    "用户确认：除 ending 外，静止不动的人不当 C；辅助动作、陪衬动作不当 C。不能仅凭处于中间或前排认定 C。",
+    "ending 的静止姿势不因静止本身自动取消 C，仍按实际主表演关系判断。",
+    "交接时以当前动作、朝向和主表演关系确定 C，不能因为旧姓名已锁定就延迟交接。没有明确主表演者时暂不画框、不计时。",
+    "红框、姓名、国旗和实时计时使用同一份逐帧 C 位结果；没有红框不累计，双 C 两人同时累计。"
+  ]
+}

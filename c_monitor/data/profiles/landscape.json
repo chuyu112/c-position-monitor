@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "name": "landscape",
+  "description": "C7 第八轮修订横屏",
+  "annotations": "../reviewed/landscape.jsonl",
+  "fps": 30,
+  "frame_count": 6657,
+  "annotation_size": [
+    852,
+    480
+  ],
+  "output_size": [
+    3456,
+    1944
+  ],
+  "source_trim_seconds": 1.917375,
+  "source_crop_xywh": [
+    0,
+    178,
+    3456,
+    1944
+  ],
+  "music_start_frame": 60,
+  "members": [
+    "AIJING",
+    "XILI",
+    "OA",
+    "MERCI",
+    "AYUNE",
+    "YOUNG",
+    "VORA",
+    "RADA",
+    "HIMEKI"
+  ],
+  "chinese_names": {
+    "AIJING": "盛艾敬",
+    "XILI": "梁淅沥",
+    "MERCI": "马西桐"
+  },
+  "flags": {
+    "AIJING": [
+      "CN"
+    ],
+    "XILI": [
+      "CN"
+    ],
+    "OA": [
+      "US",
+      "JP"
+    ],
+    "MERCI": [
+      "CN"
+    ],
+    "AYUNE": [
+      "KR"
+    ],
+    "YOUNG": [
+      "KR"
+    ],
+    "VORA": [
+      "KR"
+    ],
+    "RADA": [
+      "TH"
+    ],
+    "HIMEKI": [
+      "JP"
+    ]
+  },
+  "expected_member_frames": {
+    "AIJING": 1802,
+    "XILI": 1408,
+    "OA": 1660,
+    "MERCI": 933,
+    "AYUNE": 850,
+    "YOUNG": 1017,
+    "VORA": 254,
+    "RADA": 496,
+    "HIMEKI": 424
+  },
+  "expected_c_count_frames": {
+    "0": 60,
+    "1": 4350,
+    "2": 2247
+  },
+  "annotations_sha256": "96a4a9b1744dcb433016ffe78ceda71a7ab31fe61e16b17365000069023dc948",
+  "source_hint": "原始全屏录屏，先去掉 1.917375 秒，再裁切 [0, 178, 3456, 1944]；不能再次使用已裁切成片",
+  "reviewed_baseline": "outputs/neon-screen-recording-v8/corrected_boxes.jsonl"
+}
