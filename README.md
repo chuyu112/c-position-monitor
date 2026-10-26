@@ -1,5 +1,9 @@
 # 竖屏与横屏 C 位监测
 
+![竖屏与横屏最终成片中的 MERCI 与 OA 双 C 监测画面](assets/covers/cover.jpg)
+
+封面截取两版最终成片 01:17 的双 C 画面：[竖屏截图](assets/covers/portrait.jpg) · [横屏截图](assets/covers/landscape.jpg)。
+
 舞蹈视频 C 位候选检测、人工复核、姓名标注和逐帧计时。竖屏 C5 与横屏 C7 使用共享计时和导出入口，各自保留独立的时间线、坐标和最终复核数据。
 
 当前自动检测基于 YOLO Pose、ByteTrack 和前排几何规则；姓名及主舞角色来自已有人工复核。三人主表演组合、主舞与陪衬关系仍需复核。

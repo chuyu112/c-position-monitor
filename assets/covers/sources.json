@@ -1,0 +1,33 @@
+{
+  "portrait": {
+    "source": "c5_C位标注_最终版.mp4",
+    "timestamp_seconds": 77.0,
+    "frame": 2310,
+    "fps": 30,
+    "image": "portrait.jpg",
+    "size": [
+      720,
+      1280
+    ]
+  },
+  "landscape": {
+    "source": "NEON_横屏录屏高清_C位红框_国旗姓名排行榜.mp4",
+    "baseline": "neon-screen-recording-v8",
+    "timestamp_seconds": 77.0,
+    "frame": 2310,
+    "fps": 30,
+    "image": "landscape.jpg",
+    "size": [
+      1600,
+      900
+    ]
+  },
+  "cover": {
+    "image": "cover.jpg",
+    "size": [
+      1600,
+      900
+    ],
+    "method": "FFmpeg extracted video frames, proportionally scaled and placed side by side; source annotations retained."
+  }
+}
