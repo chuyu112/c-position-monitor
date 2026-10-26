@@ -1,6 +1,6 @@
-# 竖屏与横屏 C 位监测
+# a2o lite女团C位监测
 
-![竖屏与横屏最终成片中的 MERCI 与 OA 双 C 监测画面](assets/covers/cover.jpg)
+![a2o lite女团C位监测 封面](assets/covers/cover.jpg)
 
 封面截取两版最终成片 01:17 的双 C 画面：[竖屏截图](assets/covers/portrait.jpg) · [横屏截图](assets/covers/landscape.jpg)。
 

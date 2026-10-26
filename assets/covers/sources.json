@@ -28,6 +28,7 @@
       1600,
       900
     ],
-    "method": "FFmpeg extracted video frames, proportionally scaled and placed side by side; source annotations retained."
+    "method": "FFmpeg extracted video frames, proportionally scaled and placed side by side; source annotations retained.",
+    "title": "a2o lite女团C位监测"
   }
 }
